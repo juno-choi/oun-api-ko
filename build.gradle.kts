@@ -25,6 +25,10 @@ dependencies {
 	runtimeOnly("com.h2database:h2")
 	runtimeOnly("mysql:mysql-connector-java")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	// logging 설정
+	implementation("io.github.microutils:kotlin-logging-jvm:2.0.11")
+	// logback 설정
+	implementation("ch.qos.logback:logback-classic:1.2.6")
 }
 
 tasks.withType<KotlinCompile> {

@@ -1,0 +1,10 @@
+logging:
+  pattern:
+    console: "[%d{HH:mm:ss.SSS}][%-5level][%logger.%method:line%line] - %msg%n"
+  level:
+    root: info
+    com.juno.oun: debug
+#  logback 설정시 필요
+#  logback:
+#    rollingpolicy:
+#      file-name-pattern:
